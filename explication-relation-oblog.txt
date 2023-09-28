@@ -1,0 +1,12 @@
+
+AUTHOR ( author code, author name, image, email )
+Le champ author code constitue la clé primaire de la table. C'était déjà un identifiant de l'entité AUTHOR.
+Les champs author name, image et email étaient déjà de simples attributs de l'entité AUTHOR.
+CATEGORY ( category code, category name, position )
+Le champ category code constitue la clé primaire de la table. C'était déjà un identifiant de l'entité CATEGORY.
+Les champs category name et position étaient déjà de simples attributs de l'entité CATEGORY.
+POST ( post code, title, resume, content, published date, views, #category code, #author code )
+Le champ post code constitue la clé primaire de la table. C'était déjà un identifiant de l'entité POST.
+Les champs title, resume, content, published date et views étaient déjà de simples attributs de l'entité POST.
+Le champ category code est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle is related to à partir de l'entité CATEGORY en perdant son caractère identifiant.
+Le champ author code est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle is written by à partir de l'entité AUTHOR en perdant son caractère identifiant.

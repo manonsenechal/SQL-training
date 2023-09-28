@@ -1,0 +1,10 @@
+:
+POST: post code, title, resume, content, published date, views, #category code->CATEGORY->category code, #author code->AUTHOR->author code
+:
+CATEGORY: category code, category name, position
+:
+
+
+:::
+AUTHOR: author code, author name, image, email
+:

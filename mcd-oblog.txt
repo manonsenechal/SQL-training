@@ -1,0 +1,7 @@
+POST: post code, title, resume, content, published date, views
+is related to, 11 POST, 0N CATEGORY
+CATEGORY: category code, category name, position
+
+:
+is written by, 01 POST, 0N AUTHOR
+AUTHOR: author code, author name, image, email
